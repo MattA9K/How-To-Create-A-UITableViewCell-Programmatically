@@ -12,6 +12,7 @@
 		C8DEFA961E704FCC00BEE49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DEFA941E704FCC00BEE49D /* Main.storyboard */; };
 		C8DEFA981E704FCC00BEE49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DEFA971E704FCC00BEE49D /* Assets.xcassets */; };
 		C8DEFA9B1E704FCC00BEE49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DEFA991E704FCC00BEE49D /* LaunchScreen.storyboard */; };
+		C8DEFAC31E70514E00BEE49D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DEFAC21E70514E00BEE49D /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C8DEFA971E704FCC00BEE49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8DEFA9A1E704FCC00BEE49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8DEFA9C1E704FCC00BEE49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DEFAC21E70514E00BEE49D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C8DEFA971E704FCC00BEE49D /* Assets.xcassets */,
 				C8DEFA991E704FCC00BEE49D /* LaunchScreen.storyboard */,
 				C8DEFA9C1E704FCC00BEE49D /* Info.plist */,
+				C8DEFAC21E70514E00BEE49D /* CustomTableViewCell.swift */,
 			);
 			path = ProgrammaticTableViewCell;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DEFA931E704FCC00BEE49D /* ViewController.swift in Sources */,
+				C8DEFAC31E70514E00BEE49D /* CustomTableViewCell.swift in Sources */,
 				C8DEFA911E704FCC00BEE49D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG3A5N738L;
 				INFOPLIST_FILE = ProgrammaticTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattandrzejczuk.ProgrammaticTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG3A5N738L;
 				INFOPLIST_FILE = ProgrammaticTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mattandrzejczuk.ProgrammaticTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
